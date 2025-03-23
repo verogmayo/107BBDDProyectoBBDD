@@ -32,6 +32,7 @@ section{
     margin-top: 5em;
     margin-bottom: 3em;
     padding-top: 1em;
+    
 }
 article{
     display: flex;
@@ -55,9 +56,12 @@ div{
     text-decoration-line: none;
     font-size: 20px;
     font-weight: bold;
+    text-decoration: none;
 }
 a{
     text-decoration: none;
+    color: var(--grisBalu);
+    text-align: center;
 }
 a:hover{
     text-decoration:underline 1px var(--grisBalu); 
